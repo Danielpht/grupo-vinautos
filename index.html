@@ -3,101 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JEISLI FEMME - Siente tu estilo</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome para iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- AOS - Animate On Scroll -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Custom CSS -->
+    <title>GRUPO VINAUTOS SAS - Identificación Vehicular</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header fijo -->
+    <!-- Header -->
     <header class="header">
-        <div class="container header-flex">
-            <div class="logo">JEISLI <span>FEMME</span></div>
+        <div class="container">
             <nav class="nav">
-                <a href="#inicio" class="nav-link active">Inicio</a>
-                <a href="#catalogo" class="nav-link">Catálogo</a>
-                <a href="#reseñas" class="nav-link">Reseñas</a>
-                <a href="#contacto" class="nav-link">Contacto</a>
-                <a href="https://instagram.com" target="_blank" class="nav-icon"><i class="fab fa-instagram"></i></a>
-                <a href="https://facebook.com" target="_blank" class="nav-icon"><i class="fab fa-facebook"></i></a>
+                <div class="logo">
+                    <img src="img/LOGO.png" alt="GRUPO VINAUTOS SAS" style="height: 80px; width: auto;">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero -->
-    <section class="hero" id="inicio">
-        <div class="container hero-flex">
-            <div class="hero-img">
-                <img src="img/5.png" alt="Modelo JEISLI FEMME">
-            </div>
-            <div class="hero-text">
-                <h1>Eleva tu estilo</h1>
-                <p class="slogan">Siente tu estilo</p>
-                <button class="btn btn-primary" id="btn-ver-catalogo">Descubre tu estilo</button>
-            </div>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="section-overlay"></div>
+        <div class="hero-content">
+            <h1 class="section-title">Confianza, Técnica y Precisión en Identificación Automotriz</h1>
+            <p class="text-light">Expertos en verificación de VIN y documentación vehicular</p>
+            <a href="#consulta" class="cta-button">Consultar VIN Ahora</a>
         </div>
     </section>
 
-    <!-- Productos destacados -->
-    <section class="destacados" id="catalogo">
+    <!-- Servicios Section -->
+    <section id="servicios" class="servicios">
+        <div class="section-overlay"></div>
         <div class="container">
-            <h2 class="section-title">Casual Wear</h2>
-            <div class="productos-destacados" id="productos-destacados">
-                <!-- Tarjetas de productos destacados se cargan por JS -->
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <h3 class="text-light">Verificación VIN</h3>
+                    <p class="text-light">Validación completa del número de identificación vehicular</p>
+                </div>
+                <div class="servicio-card">
+                    <h3 class="text-light">Documentación</h3>
+                    <p class="text-light">Revisión y validación de documentos vehiculares</p>
+                </div>
+                <div class="servicio-card">
+                    <h3 class="text-light">Asesoría</h3>
+                    <p class="text-light">Consultoría especializada en identificación vehicular</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Banner promocional -->
-    <section class="promo-banner">
-        <div class="container promo-flex">
-            <div class="promo-img">
-                <img src="img/5.png" alt="Spring Collection">
-            </div>
-            <div class="promo-text">
-                <h3>Spring Collection <span class="promo-off">30% OFF</span></h3>
-                <p>Descubre la nueva colección primavera con descuentos exclusivos en prendas seleccionadas.</p>
-                <button class="btn btn-secondary">SHOP NOW</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tendencias de clientas -->
-    <section class="tendencias" id="reseñas">
+    <!-- Consulta VIN Section -->
+    <section id="consulta" class="consulta-vin">
+        <div class="section-overlay"></div>
         <div class="container">
-            <h2 class="section-title">Tendencias de nuestras clientas</h2>
-            <div class="tendencias-grid" id="tendencias-grid">
-                <!-- Tarjetas de tendencias/reseñas se cargan por JS -->
+            <h2 class="section-title">Consulta de VIN</h2>
+            <form class="consulta-form">
+                <input type="text" id="vin-input" placeholder="Ingrese el número VIN" maxlength="17">
+                <button type="submit" class="cta-button">Buscar</button>
+            </form>
+            <div id="resultado-vin" class="resultado-vin text-light"></div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonios" class="testimonios">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <h2 class="section-title">Testimonios</h2>
+            <div class="testimonios-grid">
+                <div class="testimonio-card">
+                    <p class="text-light">"Servicio profesional y confiable. Excelente atención y resultados precisos."</p>
+                    <div class="cliente-info text-light">Carlos Rodríguez, Gerente de Flota</div>
+                </div>
+                <div class="testimonio-card">
+                    <p class="text-light">"La mejor opción para verificación de vehículos. Muy recomendados."</p>
+                    <div class="cliente-info text-light">María González, Asesora de Seguros</div>
+                </div>
+                <div class="testimonio-card">
+                    <p class="text-light">"Rapidez y precisión en cada consulta. Un servicio de primera calidad."</p>
+                    <div class="cliente-info text-light">Juan Pérez, Perito Automotriz</div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer" id="contacto">
-        <div class="container footer-flex">
-            <div class="footer-info">
-                <h4>JEISLI FEMME</h4>
-                <p>Siente tu estilo</p>
-                <p>info@jeislifemme.com</p>
-                <p>+57 300 123 4567</p>
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <img src="img/LOGO.png" alt="GRUPO VINAUTOS SAS" style="height: 80px; width: auto;">
+                    <p>Expertos en identificación automotriz</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-phone"></i> +57 123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@grupovinautos.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bogotá, Colombia</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="footer-social">
-                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-            </div>
-            <div class="footer-copy">
-                <p>&copy; 2024 JEISLI FEMME. Todos los derechos reservados.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GRUPO VINAUTOS SAS. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html> 

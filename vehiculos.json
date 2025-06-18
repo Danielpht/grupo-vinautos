@@ -1,0 +1,92 @@
+[
+    {
+        "vin": "3N1AB7AP9FY256432",
+        "marca": "Nissan",
+        "modelo": "Sentra",
+        "año": 2015,
+        "color": "Gris",
+        "numero_motor": "MR18DE",
+        "observaciones": "Sin inconsistencias. Número de chasis legible."
+    },
+    {
+        "vin": "1HGCM82633A004352",
+        "marca": "Honda",
+        "modelo": "Accord",
+        "año": 2003,
+        "color": "Negro",
+        "numero_motor": "J30A4",
+        "observaciones": "Revisión técnica pendiente."
+    },
+    {
+        "vin": "WBAJB0C51BC123456",
+        "marca": "BMW",
+        "modelo": "Serie 3",
+        "año": 2011,
+        "color": "Blanco",
+        "numero_motor": "N52B30",
+        "observaciones": "En buen estado. Mantenimiento al día."
+    },
+    {
+        "vin": "JT3HP10V2X7123456",
+        "marca": "Toyota",
+        "modelo": "Land Cruiser",
+        "año": 1999,
+        "color": "Verde",
+        "numero_motor": "1FZ-FE",
+        "observaciones": "Requiere revisión de suspensión."
+    },
+    {
+        "vin": "WVWAA71F48V123456",
+        "marca": "Volkswagen",
+        "modelo": "Golf",
+        "año": 2008,
+        "color": "Rojo",
+        "numero_motor": "BPY",
+        "observaciones": "Cambio de aceite reciente."
+    },
+    {
+        "vin": "JM1BL1V76C1234567",
+        "marca": "Mazda",
+        "modelo": "MX-5",
+        "año": 2012,
+        "color": "Azul",
+        "numero_motor": "MZR",
+        "observaciones": "Excelente estado general."
+    },
+    {
+        "vin": "ZFF67LFA5E1234567",
+        "marca": "Ferrari",
+        "modelo": "458 Italia",
+        "año": 2014,
+        "color": "Rojo",
+        "numero_motor": "F136",
+        "observaciones": "Servicio oficial completo."
+    },
+    {
+        "vin": "WDDNG7GB4AA123456",
+        "marca": "Mercedes-Benz",
+        "modelo": "Clase S",
+        "año": 2010,
+        "color": "Negro",
+        "numero_motor": "M273",
+        "observaciones": "Revisión de frenos necesaria."
+    },
+    {
+        "vin": "SALME2D44CA123456",
+        "marca": "Land Rover",
+        "modelo": "Range Rover",
+        "año": 2012,
+        "color": "Plata",
+        "numero_motor": "AJ133",
+        "observaciones": "Sistema de suspensión neumática en buen estado."
+    },
+    {
+        "vin": "JTDKN3DU7D5123456",
+        "marca": "Toyota",
+        "modelo": "Prius",
+        "año": 2013,
+        "color": "Blanco",
+        "numero_motor": "2ZR-FXE",
+        "observaciones": "Batería híbrida en buen estado."
+    }
+] 
