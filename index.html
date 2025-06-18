@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEISLI FEMME - Siente tu estilo</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS - Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header fijo -->
+    <header class="header">
+        <div class="container header-flex">
+            <div class="logo">JEISLI <span>FEMME</span></div>
+            <nav class="nav">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#catalogo" class="nav-link">Catálogo</a>
+                <a href="#reseñas" class="nav-link">Reseñas</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+                <a href="https://instagram.com" target="_blank" class="nav-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank" class="nav-icon"><i class="fab fa-facebook"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+        <div class="container hero-flex">
+            <div class="hero-img">
+                <img src="img/5.png" alt="Modelo JEISLI FEMME">
+            </div>
+            <div class="hero-text">
+                <h1>Eleva tu estilo</h1>
+                <p class="slogan">Siente tu estilo</p>
+                <button class="btn btn-primary" id="btn-ver-catalogo">Descubre tu estilo</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos destacados -->
+    <section class="destacados" id="catalogo">
+        <div class="container">
+            <h2 class="section-title">Casual Wear</h2>
+            <div class="productos-destacados" id="productos-destacados">
+                <!-- Tarjetas de productos destacados se cargan por JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner promocional -->
+    <section class="promo-banner">
+        <div class="container promo-flex">
+            <div class="promo-img">
+                <img src="img/5.png" alt="Spring Collection">
+            </div>
+            <div class="promo-text">
+                <h3>Spring Collection <span class="promo-off">30% OFF</span></h3>
+                <p>Descubre la nueva colección primavera con descuentos exclusivos en prendas seleccionadas.</p>
+                <button class="btn btn-secondary">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tendencias de clientas -->
+    <section class="tendencias" id="reseñas">
+        <div class="container">
+            <h2 class="section-title">Tendencias de nuestras clientas</h2>
+            <div class="tendencias-grid" id="tendencias-grid">
+                <!-- Tarjetas de tendencias/reseñas se cargan por JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container footer-flex">
+            <div class="footer-info">
+                <h4>JEISLI FEMME</h4>
+                <p>Siente tu estilo</p>
+                <p>info@jeislifemme.com</p>
+                <p>+57 300 123 4567</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2024 JEISLI FEMME. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
